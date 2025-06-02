@@ -1,7 +1,9 @@
 :root{
-    --branding-color: #6c63ff;
-    --secondary-color: #f9f7fe;
-    --heading-font-family: 'Playfair Display', serif;
+    --branding-color: #ff2e63;
+    --secondary-color: #08d9d6;
+    --third-color: #eaeaea;
+    --black-color: #252a34;
+    --heading-font-family: "bruno-ace", sans-serif;
     --default-font-family: 'Poppins', sans-serif;
     
 }
@@ -11,7 +13,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: black;
+    color: var(--black-color);
     font-family: var(--heading-font-family);
     font-weight: bold;
 }
@@ -59,10 +61,17 @@ p{
 .btn-branding{
     background: var(--branding-color);
     border-radius: 4px;
-    color: white;
+    color: var(--third-color);
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;;
+    padding: 15px 30px;
+    transition: all 200ms ease-in-out;
+}
+
+.btn-branding:hover{
+    background: var(--black-color);
+    color: var(--third-color);
+
 }
 
 .content-container{
@@ -70,9 +79,9 @@ p{
 }
 
 .content-container h3{
-    font-size: 24px;
+    font-size: 48px;
     line-height: 1.5;
-    font-family: var(--default-font-family);
+    font-family: var(--heading-font-family);
 }
 
 .content-container p{
@@ -95,6 +104,7 @@ p{
 .content-container h2{
     font-size: 18px;
     font-family: var(--default-font-family);
+    color: var(--branding-color);
 }
 
 .content-container p{
@@ -112,7 +122,13 @@ p{
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;;
+    padding: 15px 30px;
+    transition: all 200ms ease-in-out;
+}
+
+.btn-branding-outline:hover{
+    background: var(--branding-color);
+    color: var(--third-color);
 }
 
 .project-description{
@@ -121,7 +137,7 @@ p{
 }
 
 .logo{
-    max-height: 40px;
+    max-height: 50px;
 }
 
 nav{
@@ -161,6 +177,10 @@ footer{
     margin: 60px 0;
 }
 
+footer p{
+    color: var(--black-color);
+}
+
 footer .contact-box{
     background-color: var(--secondary-color);
     padding: 30px 120px;
@@ -173,7 +193,7 @@ footer .contact-box p{
 
 footer .social-links a{
     margin: 0 20px;
-    color: var(--branding-color);
+    color: var(--third-color);
     background-color: var(--secondary-color);
     border-radius: 50%;
     padding: 10px 14px;
@@ -211,6 +231,10 @@ footer .email-link:hover{
 
     .hero{
         padding: 80px 20px;
+    }
+
+    footer p{
+        text-align: left;
     }
 
     .content-container{
