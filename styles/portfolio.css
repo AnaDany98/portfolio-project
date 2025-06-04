@@ -101,7 +101,7 @@ p{
 }
 
 .content-container h3{
-    font-size: 48px;
+    font-size: 24px;
     line-height: 1.5;
     font-family: var(--heading-font-family);
 }
@@ -194,6 +194,11 @@ nav a:hover{
     color : var(--branding-color);
     transition: all 150ms ease-in-out;
 
+}
+
+.contact-title{
+    font-size: 24px;
+    color: var(--branding-color);
 }
 
 footer{
