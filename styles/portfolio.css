@@ -294,11 +294,26 @@ footer .email-link:hover{
         text-align: center;
     }
 
+    .project-hero {
+        min-height: 60vh; /* o 100vh si quieres que llene la pantalla */
+        display: flex;
+        align-items: center;
+      }
+
+      .project-hero h1{
+        font-size: 50px;
+      }
+
     .vainilla{
         background-color: #edb321;
         background-image: none;
         text-align: center;
     }
+    
+    .responsive-img {
+        width: 300px !important;
+        height: auto;
+      }
 
     footer p{
         text-align: left;
