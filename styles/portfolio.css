@@ -95,6 +95,13 @@ p{
     background-repeat: no-repeat;
 }
 
+.clock{
+    background-image: url("../images/world-clock-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .slide-in-left {
     animation: slideInFromLeft 1s ease-out forwards;
   }
@@ -306,6 +313,12 @@ footer .email-link:hover{
 
     .vainilla{
         background-color: #edb321;
+        background-image: none;
+        text-align: center;
+    }
+
+    .clock{
+        background-color: #5c5c99;
         background-image: none;
         text-align: center;
     }
