@@ -274,7 +274,7 @@ footer .email-link:hover{
     color: var(--branding-color);
 }
 
-@media (max-width: 960px){
+@media (max-width: 600px){
     h1{
         font-size: 44px;
         line-height: 56px;
@@ -291,6 +291,12 @@ footer .email-link:hover{
         background: var(--secondary-color);
         background-image: none;
         padding: 80px 20px;
+        text-align: center;
+    }
+
+    .vainilla{
+        background-color: #edb321;
+        background-image: none;
         text-align: center;
     }
 
