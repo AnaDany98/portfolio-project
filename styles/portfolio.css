@@ -116,6 +116,13 @@ p{
     background-repeat: no-repeat;
 }
 
+.weather-r{
+    background-image: url("../images/weather-r.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .slide-in-left {
     animation: slideInFromLeft 1s ease-out forwards;
   }
@@ -339,6 +346,18 @@ footer .email-link:hover{
 
     .lisbon{
         background-color: #008fc1;
+        background-image: none;
+        text-align: center;
+    }
+
+    .poem{
+        background-color: #cfc3f4;
+        background-image: none;
+        text-align: center;
+    }
+
+    .weather-r{
+        background-color: #f99430;
         background-image: none;
         text-align: center;
     }
