@@ -123,6 +123,13 @@ p{
     background-repeat: no-repeat;
 }
 
+.dictionary-r{
+    background-image: url("../images/dictionary-r-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .slide-in-left {
     animation: slideInFromLeft 1s ease-out forwards;
   }
@@ -358,6 +365,12 @@ footer .email-link:hover{
 
     .weather-r{
         background-color: #f99430;
+        background-image: none;
+        text-align: center;
+    }
+
+    .dictionary-r{
+        background-color: #9671f4;
         background-image: none;
         text-align: center;
     }
